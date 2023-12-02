@@ -11,6 +11,8 @@
 import os  # Operating System Module
 import re  # Regular Expression Module
 
+from prettytable import PrettyTable
+
 
 def parse_line(line):
     """
@@ -27,18 +29,43 @@ def sum_digits_in_file(file_path):
     and last digit, stores the result as an integer in an array, and returns the sum of
     all values in the array.
     """
+    word_to_digit = {
+        "zero": "0",
+        "one": "1",
+        "two": "2",
+        "three": "3",
+        "four": "4",
+        "five": "5",
+        "six": "6",
+        "seven": "7",
+        "eight": "8",
+        "nine": "9",
+    }
+    table = PrettyTable(["Line", "New Line", "Parsed Line"])
     digits_array = []
     with open(file_path, "r") as file:
         for line in file:
-            parsed_value = parse_line(line)
-            if parsed_value is not None:
-                digits_array.append(parsed_value)
+            line = line.strip()
+            if line:
+                words_and_digits = re.findall(
+                    r"\b" + "|".join(word_to_digit.keys()) + r"\b|\d+", line
+                )
+                print(words_and_digits)
+                new_line = "".join(
+                    word_to_digit[word] if word in word_to_digit else word
+                    for word in words_and_digits
+                )
+                parsed_line = parse_line(new_line)
+                table.add_row([line, new_line, parsed_line])
+                digits_array.append(parsed_line)
+    # print(table)
     return sum(digits_array)
 
 
 def main():
-    total = sum_digits_in_file("day1_input.txt")
-    print(total)  # The answer is 55017 for my input.
+    # total = sum_digits_in_file("day1_input.txt")
+    total = sum_digits_in_file("day1_temp.txt")
+    print(total)
 
 
 if __name__ == "__main__":
