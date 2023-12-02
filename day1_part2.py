@@ -1,20 +1,14 @@
-# Advent of Code 2023 - Day 1 - Part 1
+# Advent of Code 2023 - Day 1 - Part 2
 # https://adventofcode.com/2023/day/1
 
-# Initial GitHub Copilot Chat Prompt:
-# "I'd like to write a Python script that reads a text file line by line. For each line,
-# I want to find the first and last digit, concatonate them together, and store the
-# result as an integer in an array. At the end, I want to sum all the values in the
-# array and print the total. I'm using Python 3.12. Can you help me write this script?"
 
-
-import os  # Operating System Module
-import re  # Regular Expression Module
+import os
+import re
 
 from prettytable import PrettyTable
 
 
-def parse_line(line):
+def first_and_last(line):
     """
     Parses a line to find the first and last digit, concatenates them together, and
     returns the result as an integer.
@@ -26,8 +20,8 @@ def parse_line(line):
 def sum_digits_in_file(file_path):
     """
     Reads a text file line by line, parses each line to find and concatenate the first
-    and last digit, stores the result as an integer in an array, and returns the sum of
-    all values in the array.
+    and last digit, stores the result as an integer in a list, and returns the sum of
+    all values in the list.
     """
     word_to_digit = {
         "zero": "0",
@@ -41,31 +35,37 @@ def sum_digits_in_file(file_path):
         "eight": "8",
         "nine": "9",
     }
-    table = PrettyTable(["Line", "New Line", "Parsed Line"])
-    digits_array = []
+    output = PrettyTable(align="l", field_names=["Line", "Parsed Line", "Value"])
+    values = []
     with open(file_path, "r") as file:
         for line in file:
             line = line.strip()
-            if line:
-                words_and_digits = re.findall(
-                    r"\b" + "|".join(word_to_digit.keys()) + r"\b|\d+", line
-                )
-                print(words_and_digits)
-                new_line = "".join(
-                    word_to_digit[word] if word in word_to_digit else word
-                    for word in words_and_digits
-                )
-                parsed_line = parse_line(new_line)
-                table.add_row([line, new_line, parsed_line])
-                digits_array.append(parsed_line)
-    # print(table)
-    return sum(digits_array)
+            digits = ""
+            i = 0
+            for char in line:
+                i += 1
+                if char.isdigit():
+                    digits += char
+                else:
+                    for key, val in word_to_digit.items():
+                        if char == key[0]:
+                            if len(line) >= i - 1 + len(key):
+                                chars = line[i - 1 : i - 1 + len(key)]
+                                if key == chars:
+                                    digits += val
+
+            parsed = first_and_last(digits)
+            values.append(parsed)
+            output.add_row([line, digits, parsed])
+
+    # print(output)
+    return sum(values)
 
 
 def main():
-    # total = sum_digits_in_file("day1_input.txt")
-    total = sum_digits_in_file("day1_temp.txt")
-    print(total)
+    total = sum_digits_in_file("day1_input.txt")
+    # total = sum_digits_in_file("day1_example.txt")
+    print(total)  # The answer is 53539 for my input.
 
 
 if __name__ == "__main__":

@@ -8,8 +8,8 @@
 # array and print the total. I'm using Python 3.12. Can you help me write this script?"
 
 
-import os  # Operating System Module
-import re  # Regular Expression Module
+import os
+import re
 
 
 def parse_line(line):
