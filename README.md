@@ -10,8 +10,8 @@ To run my code...
 $ python3 -m venv venv
 $ source venv/bin/activate
 $ pip install -r requirements.txt
-$ python ./Day1/part1.py
-$ ...
+$ chmod +x run_all.sh
+$ ./run_all.sh
 ```
 
 <table>

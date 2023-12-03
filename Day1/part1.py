@@ -39,8 +39,8 @@ def sum_digits_in_file(file_path):
 
 def main():
     print(f"Day {day} Part {part}")
-    # print(sum_digits_in_file(f"Day{day}/day{day}_example.txt"))
-    print(sum_digits_in_file(f"Day{day}/day{day}_input.txt"))
+    # print(sum_digits_in_file(f"Day{day}/sample.txt"))
+    print(sum_digits_in_file(f"Day{day}/input.txt"))
     # The answer is 55017 for my input.
 
 

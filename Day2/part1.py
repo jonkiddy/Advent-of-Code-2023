@@ -51,8 +51,8 @@ def check_game(game, red, green, blue):
 
 def main():
     print(f"Day {day} Part {part}")
-    # print(number_of_valid_games(f"Day{day}/day{day}_example.txt"))
-    print(number_of_valid_games(f"Day{day}/day{day}_input.txt"))
+    # print(number_of_valid_games(f"Day{day}/sample.txt"))
+    print(number_of_valid_games(f"Day{day}/input.txt"))
     # The answer is 2913 for my input.
 
 
