@@ -13,15 +13,13 @@ $ pip install -r requirements.txt
 $ python ./Day1/day1_part1.py
 ```
 
-__Day 1: Trebuchet?!__
+## Day 1: Trebuchet?!
 
 [Overview](./Day1/day1_overview.md) - [Part One ](./Day1/day1_part1.py) :star: - [Part Two](./Day1/day1_part2.py) :star:
 
 <img src="./Day1/day1_DALLE.png"  width="275" height="275">
 
----
-
-__Day 2: Cube Conundrum__
+## Day 2: Cube Conundrum
 
 [Overview](./Day2/day2_overview.md) - [Part One](./Day2/day2_part1.py) - [Part Two](./Day2/day2_part2.py)
 
