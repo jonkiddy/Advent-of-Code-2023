@@ -13,8 +13,9 @@ $ pip install -r requirements.txt
 $ python ./Day1/day1_part1.py
 ```
 
-<table style="border: none;">
-<tr>
+<table>
+
+<tr> <!-- New Row -->
 
 <td>
 
@@ -35,5 +36,6 @@ $ python ./Day1/day1_part1.py
 
 </td>
 
-</tr>
+</tr> <!-- End Row -->
+
 </table>
