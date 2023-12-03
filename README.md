@@ -1,5 +1,18 @@
 # Advent of Code 2023
 
+Hello! I'm having fun with AoC using Python3.12 on MacOS.
+
+Note, I'm using GitHub Copilot Chat to help me write the code, so I don't intend to attempt to earn points, but to simiply have fun while experimenting with generative AI. :smile: I've added my prompts to the top of each day's code when I remembered to do so.
+
+To run my code...
+
+```bash
+$ python3 -m venv venv
+$ source venv/bin/activate
+$ pip install -r requirements.txt
+$ python ./Day1/day1_part1.py
+```
+
 __Day 1: Trebuchet?!__
 
 [Overview](./Day1/day1_overview.md) - [Part One ](./Day1/day1_part1.py) :star: - [Part Two](./Day1/day1_part2.py) :star:

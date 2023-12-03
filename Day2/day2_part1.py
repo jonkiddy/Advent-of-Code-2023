@@ -37,6 +37,7 @@ def check_game(game, red, green, blue):
 
 
 def main():
+    print("Day 2 Part 1")
     # print(number_of_valid_games("Day2/day2_example.txt"))
     print(number_of_valid_games("Day2/day2_input.txt"))
     # The answer is ??? for my input.

@@ -19,6 +19,7 @@ def my_function(file_path):
 
 
 def main():
+    print("Day 2 Part 2")
     print(my_function("Day2/day2_example.txt"))
     # The answer is ??? for my input.
 

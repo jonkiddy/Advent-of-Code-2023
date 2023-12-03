@@ -19,6 +19,7 @@ def my_function(file_path):
 
 
 def main():
+    print("Day ? Part ?")
     print(my_function("Day?/day?_example.txt"))
     # The answer is ??? for my input.
 
