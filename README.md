@@ -1,8 +1,8 @@
 # Advent of Code 2023
 
-Hello! I'm having fun with AoC using Python3.12 on MacOS.
+Hello! I'm having fun with [AoC](https://adventofcode.com/) using Python3.12 on MacOS.
 
-Note, I'm using GitHub Copilot Chat to help me write the code, so I don't intend to attempt to earn points, but to simiply have fun while experimenting with generative AI. :smile: I've added my prompts to the top of each day's code when I remembered to do so.
+I'm using VS Code with "GitHub Copilot Chat" to help write some of the code. As per the rules, I don't intend to attempt to earn points but to simiply have fun while experimenting with generative AI. :smile: I've added my prompts to the top of each day's code when I remembered to do so.
 
 To run my code...
 
