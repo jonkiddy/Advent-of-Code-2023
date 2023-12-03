@@ -4,7 +4,7 @@
 # Initial GitHub Copilot Chat Prompt:
 # <Prompt>
 
-
+import os
 import re
 
 day, part = "1", "1"

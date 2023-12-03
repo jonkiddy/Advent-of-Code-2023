@@ -1,7 +1,7 @@
 # Advent of Code 2023 - Day 2 - Part 2
 # https://adventofcode.com/2023/day/2
 
-
+import os
 import re
 
 day, part = "2", "2"

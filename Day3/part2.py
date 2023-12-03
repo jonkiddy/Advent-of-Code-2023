@@ -7,7 +7,7 @@
 import os
 import re
 
-day, part = "1", "1"
+day, part = "3", "1"
 
 
 def my_function(file_path):

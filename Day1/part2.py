@@ -1,7 +1,7 @@
 # Advent of Code 2023 - Day 1 - Part 2
 # https://adventofcode.com/2023/day/1
 
-
+import os
 import re
 from prettytable import PrettyTable
 

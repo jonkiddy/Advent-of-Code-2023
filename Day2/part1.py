@@ -6,7 +6,7 @@
 # script that reads game data from a file and calculates the sum of the game IDs for
 # which the game would be possible with a certain number of red, green, and blue cubes."
 
-
+import os
 import re
 
 day, part = "2", "1"
