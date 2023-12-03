@@ -2,7 +2,7 @@
 
 <b>Hello! :wave: I'm having fun with [AoC](https://adventofcode.com/) using Python3.12 on MacOS.  :computer: </b>
 
-Using VS Code with "GitHub Copilot Chat" to help write some of the code. As per the rules, I don't intend to attempt to earn points but to simiply have fun while experimenting with Generative AI. :smile: I've added my prompts to the top of each day's code when I remembered to save them.
+I'm experimenting with VS Code and "GitHub Copilot Chat" to help write some of the code. As per the rules, I don't intend to attempt to earn any points but to simiply have fun while experimenting with Generative AI. :smile: When I've remembered, I've added my prompts to the top of each day's code.
 
 To run my code...
 
