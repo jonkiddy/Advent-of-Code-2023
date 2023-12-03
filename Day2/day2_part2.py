@@ -19,8 +19,8 @@ def my_function(file_path):
 
 
 def main():
-    total = my_function("Day2/day2_example.txt")
-    print(total)  # The answer is ??? for my input.
+    print(my_function("Day2/day2_example.txt"))
+    # The answer is ??? for my input.
 
 
 if __name__ == "__main__":

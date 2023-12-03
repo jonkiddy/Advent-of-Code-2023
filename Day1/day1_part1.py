@@ -37,8 +37,8 @@ def sum_digits_in_file(file_path):
 
 
 def main():
-    total = sum_digits_in_file("Day1/day1_input.txt")
-    print(total)  # The answer is 55017 for my input.
+    print(sum_digits_in_file("Day1/day1_input.txt"))
+    # The answer is 55017 for my input.
 
 
 if __name__ == "__main__":
