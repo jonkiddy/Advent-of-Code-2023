@@ -1,15 +1,27 @@
-#!/usr/bin/env python3
+# Advent of Code 2023 - Day 2 - Part 2
+# https://adventofcode.com/2023/day/2
 
-# Import necessary libraries
+# Initial GitHub Copilot Chat Prompt:
+# <Prompt>
+
+
 import os
-import sys
+import re
 
 
-# Define functions
+def my_function(file_path):
+    """
+    Reads a text file line by line...
+    """
+    with open(file_path, "r") as file:
+        for line in file:
+            print(line)
+
+
 def main():
-    pass  # Your main code goes here
+    total = my_function("Day2/day2_example.txt")
+    print(total)  # The answer is ??? for my input.
 
 
-# Main execution
 if __name__ == "__main__":
     main()

@@ -15,11 +15,11 @@ def my_function(file_path):
     """
     with open(file_path, "r") as file:
         for line in file:
-            pass
+            print(line)
 
 
 def main():
-    total = my_function("day2_input.txt")
+    total = my_function("Day2/day2_input.txt")
     print(total)  # The answer is ??? for my input.
 
 
