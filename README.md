@@ -13,12 +13,12 @@ $ pip install -r requirements.txt
 $ python ./Day1/day1_part1.py
 ```
 
-<table>
+<table cellspacing="0" cellpadding="0">
 <tr>
 
 <td>
 
-## [Day 1: Trebuchet?!](./Day1/day1_overview.md)
+### [Day 1: Trebuchet?!](./Day1/day1_overview.md)
 [Part One ](./Day1/day1_part1.py) :star: - [Part Two](./Day1/day1_part2.py) :star:
 
 <img src="./Day1/day1_DALLE.png"  width="275" height="275">
@@ -27,7 +27,7 @@ $ python ./Day1/day1_part1.py
 
 <td>
 
-## [Day 2: Cube Conundrum](./Day2/day2_overview.md)
+### [Day 2: Cube Conundrum](./Day2/day2_overview.md)
 
 [Part One](./Day2/day2_part1.py) :star: - [Part Two](./Day2/day2_part2.py) :star:
 
