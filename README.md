@@ -13,7 +13,7 @@ $ pip install -r requirements.txt
 $ python ./Day1/day1_part1.py
 ```
 
-<table cellspacing="0" cellpadding="0">
+<table style="border: none;">
 <tr>
 
 <td>
