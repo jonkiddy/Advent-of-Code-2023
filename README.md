@@ -21,6 +21,6 @@ $ python ./Day1/day1_part1.py
 
 ## Day 2: Cube Conundrum
 
-[Overview](./Day2/day2_overview.md) - [Part One](./Day2/day2_part1.py) :star: - [Part Two](./Day2/day2_part2.py)
+[Overview](./Day2/day2_overview.md) - [Part One](./Day2/day2_part1.py) :star: - [Part Two](./Day2/day2_part2.py) :star:
 
 <img src="./Day2/day2_DALLE.png"  width="275" height="275">
