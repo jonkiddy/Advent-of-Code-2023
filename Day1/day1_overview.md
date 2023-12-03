@@ -4,6 +4,8 @@ https://adventofcode.com/2023/day/1
 
 ![A fantastical and busy scene focusing on a large, intricately designed trebuchet in a winter wonderland. Elves, adorned in colorful winter garments, are energetically loading a person bundled up in warm winter clothes into the trebuchet. The trebuchet, standing tall against a backdrop of snow-covered trees, is decorated with festive garlands and lights. An air of excitement and urgency is palpable as the Elves work together, consulting a star-marked map. Snowflakes are softly falling, and in the distance, an Advent calendar adds a touch of mystery, hinting at puzzles to be solved.](day1_DALLE.png)
 
+## --- Part One ---
+
 Something is wrong with global snow production, and you've been selected to take a look. The Elves have even given you a map; on it, they've used stars to mark the top fifty locations that are likely to be having problems.
 
 You've been doing this long enough to know that to restore snow operations, you need to check all fifty stars by December 25th.
