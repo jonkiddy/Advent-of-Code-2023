@@ -40,9 +40,9 @@ $ python ./Day1/day1_part1.py
 
 ### [Day 3: Gear Ratios](./Day3/day3_overview.md)
 
-[Part One](./Day3/day3_part1.py) :star: - [Part Two](./Day3/day3_part2.py) :star:
+[Part One](./Day3/day3_part1.py) - [Part Two](./Day3/day3_part2.py)
 
-<img src="./Day2/day2_DALLE.png"  width="250" height="250">
+<img src="./Day3/day3_DALLE.png"  width="250" height="250">
 
 </td>
 
