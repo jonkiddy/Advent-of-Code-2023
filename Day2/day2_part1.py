@@ -7,8 +7,9 @@
 # which the game would be possible with a certain number of red, green, and blue cubes."
 
 
-import os
 import re
+
+day, part = "2", "1"
 
 
 def number_of_valid_games(file_path):
@@ -49,8 +50,9 @@ def check_game(game, red, green, blue):
 
 
 def main():
-    print("Day 2 Part 1")
-    print(number_of_valid_games("Day2/day2_input.txt"))
+    print(f"Day {day} Part {part}")
+    # print(number_of_valid_games(f"Day{day}/day{day}_example.txt"))
+    print(number_of_valid_games(f"Day{day}/day{day}_input.txt"))
     # The answer is 2913 for my input.
 
 

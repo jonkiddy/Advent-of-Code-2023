@@ -8,8 +8,9 @@
 # array and print the total. I'm using Python 3.12. Can you help me write this script?"
 
 
-import os
 import re
+
+day, part = "1", "1"
 
 
 def parse_line(line):
@@ -37,8 +38,9 @@ def sum_digits_in_file(file_path):
 
 
 def main():
-    print("Day 1 Part 1")
-    print(sum_digits_in_file("Day1/day1_input.txt"))
+    print(f"Day {day} Part {part}")
+    # print(sum_digits_in_file(f"Day{day}/day{day}_example.txt"))
+    print(sum_digits_in_file(f"Day{day}/day{day}_input.txt"))
     # The answer is 55017 for my input.
 
 

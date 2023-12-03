@@ -2,10 +2,10 @@
 # https://adventofcode.com/2023/day/1
 
 
-import os
 import re
-
 from prettytable import PrettyTable
+
+day, part = "1", "2"
 
 
 def first_and_last(line):
@@ -63,8 +63,9 @@ def sum_digits_in_file(file_path):
 
 
 def main():
-    print("Day 1 Part 2")
-    print(sum_digits_in_file("Day1/day1_input.txt"))
+    print(f"Day {day} Part {part}")
+    # print(sum_digits_in_file(f"Day{day}/day{day}_example.txt"))
+    print(sum_digits_in_file(f"Day{day}/day{day}_input.txt"))
     # The answer is 53539 for my input.
 
 

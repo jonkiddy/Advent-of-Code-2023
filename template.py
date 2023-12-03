@@ -5,8 +5,9 @@
 # <Prompt>
 
 
-import os
 import re
+
+day, part = "1", "1"
 
 
 def my_function(file_path):
@@ -19,8 +20,8 @@ def my_function(file_path):
 
 
 def main():
-    print("Day ? Part ?")
-    print(my_function("Day?/day?_example.txt"))
+    print(f"Day {day} Part {part}")
+    print(my_function(f"Day{day}/day{day}_example.txt"))
     # The answer is ??? for my input.
 
 
