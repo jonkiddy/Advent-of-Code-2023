@@ -1,6 +1,6 @@
-# Advent of Code 2023
+# Advent of Code 2023 :christmas_tree: :gift:
 
-Hello! I'm having fun with [AoC](https://adventofcode.com/) using Python3.12 on MacOS.
+__Hello! :wave: I'm having fun with [AoC](https://adventofcode.com/) using Python3.12 on MacOS.  :computer: __
 
 Using VS Code with "GitHub Copilot Chat" to help write some of the code. As per the rules, I don't intend to attempt to earn points but to simiply have fun while experimenting with Generative AI. :smile: I've added my prompts to the top of each day's code when I remembered to do so.
 
