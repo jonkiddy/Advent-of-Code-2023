@@ -19,7 +19,7 @@ def my_function(file_path):
 
 
 def main():
-    total = my_function("day?_input.txt")
+    total = my_function("Day?/day?_example.txt")
     print(total)  # The answer is ??? for my input.
 
 
