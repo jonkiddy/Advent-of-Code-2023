@@ -1,8 +1,10 @@
 # Advent of Code 2023 - Day 2 - Part 1
 # https://adventofcode.com/2023/day/2
 
-# Initial GitHub Copilot Chat Prompt:
-# <Prompt>
+# Initial GitHub Copilot Chat Prompt (which wasn't very helpful):
+# "I'm working on the Advent of Code 2023, Day 2, Part 1 problem. Please create a Python
+# script that reads game data from a file and calculates the sum of the game IDs for
+# which the game would be possible with a certain number of red, green, and blue cubes."
 
 
 import os
@@ -11,7 +13,7 @@ import re
 
 def number_of_valid_games(file_path):
     """
-    Reads a text file line by line...
+    Reads game data from a file and calculates the sum of the game IDs for which the game.
     """
     games = []
     with open(file_path, "r") as file:
@@ -19,13 +21,23 @@ def number_of_valid_games(file_path):
             game_id, rounds = line.split(": ")
             id = int(game_id.split(" ")[1])
             rounds = rounds.split("; ")
-            rounds = [dict(re.findall(r"(\d+) (\w+)", round)) for round in rounds]
-            games.append((int(game_id.split(" ")[1]), rounds))
+            rounds = [re.findall(r"(\d+) (\w+)", round) for round in rounds]
+            rounds = [
+                {
+                    color: sum(int(count) for count, color_ in round if color_ == color)
+                    for color in ["red", "green", "blue"]
+                }
+                for round in rounds
+            ]
+            games.append((id, rounds))
     total = sum(game[0] for game in games if check_game(game, 12, 13, 14))
     return total
 
 
 def check_game(game, red, green, blue):
+    """
+    Checks if a game is possible with a certain number of red, green, and blue cubes.
+    """
     for round in game[1]:
         if (
             int(round.get("red", 0)) > red
@@ -38,9 +50,8 @@ def check_game(game, red, green, blue):
 
 def main():
     print("Day 2 Part 1")
-    # print(number_of_valid_games("Day2/day2_example.txt"))
     print(number_of_valid_games("Day2/day2_input.txt"))
-    # The answer is ??? for my input.
+    # The answer is 2913 for my input.
 
 
 if __name__ == "__main__":
