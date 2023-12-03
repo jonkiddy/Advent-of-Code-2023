@@ -1,10 +1,8 @@
-# AoC Day 2 
+# Advent of Code Day 2: Cube Conundrum
 
 https://adventofcode.com/2023/day/2
 
 ![A fantastical scene in the sky, featuring a large island floating amidst the clouds. A person has just landed softly on this island, surrounded by lush greenery but little snow, despite the chilly atmosphere. An elf in bright, whimsical attire approaches with a sense of excitement. He carries a small bag containing red, green, and blue cubes. The sky is expansive, adding to the surreal and isolated feeling of the floating island. The image should evoke a sense of enchantment and wonder, highlighting the magical setting and the unique encounter between the person and the elf.](day2_DALLE.png)
-
-## --- Day 2: Cube Conundrum ---
 
 You're launched high into the atmosphere! The apex of your trajectory just barely reaches the surface of a large island floating in the sky. You gently land in a fluffy pile of leaves. It's quite cold, but you don't see much snow. An Elf runs over to greet you.
 
