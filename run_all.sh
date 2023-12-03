@@ -10,7 +10,7 @@ for dir in */ ; do
     if ls $dir*.py 1> /dev/null 2>&1; then
         # If Python files are found, run them
         for file in $dir*.py; do
-            python3 $file
+            python $file
         done
     fi
 done

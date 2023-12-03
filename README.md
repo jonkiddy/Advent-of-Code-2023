@@ -11,7 +11,7 @@ $ python3 -m venv venv
 $ source venv/bin/activate
 $ pip install -r requirements.txt
 $ chmod +x run_all.sh
-$ ./run_all.sh
+$ make
 ```
 
 <table>
