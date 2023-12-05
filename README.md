@@ -50,4 +50,30 @@ $ make
 
 </tr> <!-- End Row -->
 
+<tr> <!-- New Row -->
+
+<td>
+
+### [Day 4: Scratchcards](./Day4/problem.md)
+
+[Part One ](./Day4/part1.py) :star: - [Part Two](./Day4/part2.py)
+
+<img src="./Day4/DALLE.png"  width="250" height="250">
+
+</td>
+
+<td>
+
+&nbsp;
+
+</td>
+
+<td>
+
+&nbsp;
+
+</td>
+
+</tr> <!-- End Row -->
+
 </table>
