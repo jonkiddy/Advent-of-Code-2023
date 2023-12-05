@@ -42,7 +42,7 @@ $ make
 
 ### [Day 3: Gear Ratios](./Day3/problem.md)
 
-[Part One](./Day3/part1.py) - [Part Two](./Day3/part2.py)
+[Part One](./Day3/part1.py) :star: - [Part Two](./Day3/part2.py)
 
 <img src="./Day3/DALLE.png"  width="250" height="250">
 
