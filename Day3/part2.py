@@ -1,5 +1,5 @@
-# Advent of Code 2023 - Day ? - Part ?
-# https://adventofcode.com/2023/day/?
+# Advent of Code 2023 - Day 3 - Part 2
+# https://adventofcode.com/2023/day/3
 
 # Initial GitHub Copilot Chat Prompt:
 # <Prompt>
@@ -7,7 +7,7 @@
 import os
 import re
 
-day, part = "3", "1"
+day, part = "3", "2"
 
 
 def my_function(file_path):

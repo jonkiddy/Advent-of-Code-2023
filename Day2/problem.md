@@ -2,7 +2,7 @@
 
 https://adventofcode.com/2023/day/2
 
-![A fantastical scene in the sky, featuring a large island floating amidst the clouds. A person has just landed softly on this island, surrounded by lush greenery but little snow, despite the chilly atmosphere. An elf in bright, whimsical attire approaches with a sense of excitement. He carries a small bag containing red, green, and blue cubes. The sky is expansive, adding to the surreal and isolated feeling of the floating island. The image should evoke a sense of enchantment and wonder, highlighting the magical setting and the unique encounter between the person and the elf.](day2_DALLE.png)
+![A fantastical scene in the sky, featuring a large island floating amidst the clouds. A person has just landed softly on this island, surrounded by lush greenery but little snow, despite the chilly atmosphere. An elf in bright, whimsical attire approaches with a sense of excitement. He carries a small bag containing red, green, and blue cubes. The sky is expansive, adding to the surreal and isolated feeling of the floating island. The image should evoke a sense of enchantment and wonder, highlighting the magical setting and the unique encounter between the person and the elf.](DALLE.png)
 
 ## --- Part One ---
 
@@ -34,7 +34,7 @@ In the example above, games 1, 2, and 5 would have been possible if the bag had 
 
 Determine which games would have been possible if the bag had been loaded with only 12 red cubes, 13 green cubes, and 14 blue cubes. What is the sum of the IDs of those games?
 
-Your puzzle answer was 2913.
+Your puzzle answer was __2913.__
 
 ## --- Part Two ---
 
@@ -62,6 +62,6 @@ The power of a set of cubes is equal to the numbers of red, green, and blue cube
 
 For each game, find the minimum set of cubes that must have been present. What is the sum of the power of these sets?
 
-Your puzzle answer was 55593.
+Your puzzle answer was __55593.__
 
 Both parts of this puzzle are complete! They provide two gold stars :star: :star:

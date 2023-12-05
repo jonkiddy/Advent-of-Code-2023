@@ -1,5 +1,5 @@
-# Advent of Code 2023 - Day ? - Part ?
-# https://adventofcode.com/2023/day/?
+# Advent of Code 2023 - Day 3 - Part 1
+# https://adventofcode.com/2023/day/3
 
 # Initial GitHub Copilot Chat Prompt:
 # <Prompt>

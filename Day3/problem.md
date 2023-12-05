@@ -1,8 +1,8 @@
-# Advent of Code Day X: Yo! :wave:
+# Advent of Code Day 3: Gear Ratios
 
-https://adventofcode.com/2023/day/1
+https://adventofcode.com/2023/day/3
 
-![A fantastical and busy scene focusing on a large, intricately designed trebuchet in a winter wonderland. Elves, adorned in colorful winter garments, are energetically loading a person bundled up in warm winter clothes into the trebuchet. The trebuchet, standing tall against a backdrop of snow-covered trees, is decorated with festive garlands and lights. An air of excitement and urgency is palpable as the Elves work together, consulting a star-marked map. Snowflakes are softly falling, and in the distance, an Advent calendar adds a touch of mystery, hinting at puzzles to be solved.](day1_DALLE.png)
+![In a gondola lift station, an illustration features an older, concerned Elf holding a wrench. The Elf has aged features, with wrinkles and grey hair, conveying wisdom and experience. He is interacting with a person in a moment of difficulty. The background shows stationary gondolas. In the foreground, an intricate engine schematic filled with numbers and symbols like asterisks, hashes, pluses, and dollar signs is displayed, resembling a complex puzzle. The schematic is on a paper or board, as if being examined by the characters. The setting has a whimsical and fantastical ambiance, reflecting a storybook-like adventure, in a square format.](DALLE.png)
 
 ## --- Part One ---
 
