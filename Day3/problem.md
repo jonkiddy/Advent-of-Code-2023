@@ -10,7 +10,7 @@ You and the Elf eventually reach a gondola lift station; he says the gondola lif
 
 It doesn't take long to find the gondolas, but there seems to be a problem: they're not moving.
 
-"Aaah!"
+> "Aaah!"
 
 You turn around to see a slightly-greasy Elf with a wrench and a look of surprise. "Sorry, I wasn't expecting anyone! The gondola lift isn't working right now; it'll still be a while before I can fix it." You offer to help.
 
