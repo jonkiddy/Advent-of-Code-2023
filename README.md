@@ -1,6 +1,6 @@
 # Advent of Code 2023 :christmas_tree: :gift:
 
-<b>Hello! :wave: I'm having fun with [AoC](https://adventofcode.com/) using Python3.12 on MacOS.  :computer: </b>
+<b>Hello! :wave: I'm having fun with [AoC](https://adventofcode.com/) using Python3.12 on MacOS. :computer: </b>
 
 I'm experimenting with VS Code and "GitHub Copilot Chat" to help write some of the code. As per the rules, I don't intend to attempt to earn any points but to simiply have fun while experimenting with Generative AI. :smile: When I've remembered, I've added my prompts to the top of each day's code.
 
@@ -20,7 +20,7 @@ $ make
 
 <td>
 
-### [Day 1: Trebuchet?!](./Day1/overview.md)
+### [Day 1: Trebuchet?!](./Day1/problem.md)
 
 [Part One ](./Day1/part1.py) :star: - [Part Two](./Day1/part2.py) :star:
 
@@ -30,7 +30,7 @@ $ make
 
 <td>
 
-### [Day 2: Cube Conundrum](./Day2/overview.md)
+### [Day 2: Cube Conundrum](./Day2/problem.md)
 
 [Part One](./Day2/part1.py) :star: - [Part Two](./Day2/part2.py) :star:
 
@@ -40,7 +40,7 @@ $ make
 
 <td>
 
-### [Day 3: Gear Ratios](./Day3/overview.md)
+### [Day 3: Gear Ratios](./Day3/problem.md)
 
 [Part One](./Day3/part1.py) - [Part Two](./Day3/part2.py)
 
