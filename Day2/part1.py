@@ -50,8 +50,16 @@ def check_game(game, red, green, blue):
 
 
 def main():
+    # Test the sample input
+    sample_answer = 8
     print(f"Day {day} Part {part}")
-    # print(number_of_valid_games(f"Day{day}/sample.txt"))
+    answer = number_of_valid_games(f"Day{day}/sample.txt")
+    if answer == sample_answer:
+        print("Sample passed!")
+    else:
+        print(f"Expected {sample_answer}, got {answer}.")
+
+    # Solve the puzzle input
     print(number_of_valid_games(f"Day{day}/input.txt"))
     # The answer is 2913 for my input.
 

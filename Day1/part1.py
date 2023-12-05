@@ -38,8 +38,16 @@ def sum_digits_in_file(file_path):
 
 
 def main():
+    # Test the sample1 input
+    sample_answer = 142
     print(f"Day {day} Part {part}")
-    # print(sum_digits_in_file(f"Day{day}/sample.txt"))
+    answer = sum_digits_in_file(f"Day{day}/sample1.txt")
+    if answer == sample_answer:
+        print("Sample passed!")
+    else:
+        print(f"Expected {sample_answer}, got {answer}.")
+
+    # Solve the puzzle input
     print(sum_digits_in_file(f"Day{day}/input.txt"))
     # The answer is 55017 for my input.
 

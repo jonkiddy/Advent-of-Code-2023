@@ -94,12 +94,15 @@ def sum_part_numbers(file_path):
 
 
 def main():
+    # Test the sample input
     print(f"Day {day} Part {part}")
     answer = sum_part_numbers(f"Day{day}/sample.txt")
     if answer == 4361:
         print("Sample passed!")
     else:
         print(f"Expected 4361, got {answer}.")
+
+    # Solve the puzzle input
     print(sum_part_numbers(f"Day{day}/input.txt"))
     # The answer is 540025 for my input.
 
