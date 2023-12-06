@@ -24,15 +24,20 @@ def calc_total_cards(file_path):
             my_numbers = set(map(int, my_numbers.split()))
             cards.append((winning_numbers, my_numbers))
 
-    i = 0
-    while i < len(cards):
+    total_cards = len(cards)
+    copied_cards = []
+    for i in range(total_cards):
         winning_numbers, my_numbers = cards[i]
-        matches = winning_numbers & my_numbers
-        for j in range(min(len(matches), len(cards) - i - 1)):
-            cards.append(cards[i + j + 1])
-        i += 1
+        matches = len(winning_numbers & my_numbers)
+        print(f"Card {i + 1} has {matches} matches.")
+        for _ in range(matches):
+            if i + 1 < total_cards:
+                copied_cards.append(cards[i + 1])
 
-    return len(cards)
+    cards.extend(copied_cards)
+    total_cards = len(cards)
+
+    return total_cards
 
 
 def main():
